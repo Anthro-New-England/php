@@ -1,0 +1,6 @@
+[submodule "deps/phpredis"]
+	path = deps/phpredis
+	url = https://github.com/phpredis/phpredis.git
+[submodule "deps/imagick"]
+	path = deps/imagick
+	url = https://github.com/Imagick/imagick.git
