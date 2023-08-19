@@ -37,7 +37,8 @@ RUN \
     xml \
     imap \
     curl \
-    phpredis
+    phpredis \
+    opcache
 
 
 FROM php AS target
