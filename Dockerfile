@@ -9,6 +9,7 @@ RUN apk add \
     build-base
 COPY deps/imagick/ /usr/src/php/ext/imagick/
 COPY deps/phpredis/ /usr/src/php/ext/phpredis/
+COPY deps/imap/ /usr/src/php/ext/imap/
 RUN apk add \
     imagemagick-dev \
     zlib-dev \
@@ -39,7 +40,6 @@ RUN \
     curl \
     phpredis \
     opcache
-
 
 FROM php AS target
 RUN apk add \

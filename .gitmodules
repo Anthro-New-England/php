@@ -4,3 +4,6 @@
 [submodule "deps/imagick"]
 	path = deps/imagick
 	url = https://github.com/Imagick/imagick.git
+[submodule "deps/imap"]
+	path = deps/imap
+	url = https://github.com/php/pecl-mail-imap
