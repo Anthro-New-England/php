@@ -38,8 +38,7 @@ RUN \
     xml \
     imap \
     curl \
-    phpredis \
-    opcache
+    phpredis
 
 FROM php AS target
 RUN apk add \
